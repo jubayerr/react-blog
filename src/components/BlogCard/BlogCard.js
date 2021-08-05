@@ -9,7 +9,7 @@ const BlogCard = ({ post }) => {
     const history = useHistory()
 
    const handleTitle = (id) => {
-       history.push(`/postDetails/${id}`)
+       history.push(`/post/${id}`)
    }
 
     return (

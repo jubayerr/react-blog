@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router'
+import './PostDetails.css'
 
 
 const PostDetails = () => {
@@ -22,8 +23,11 @@ const PostDetails = () => {
         <div className="container">
             <div className="singlePost">
             <h1>{title}</h1>
-            <p>{body}</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum adipisci provident fugiat quam maxime consequuntur nihil perferendis corporis id nesciunt ipsam dolore aut aliquam similique ad, ipsum ullam, odit quas, facere illum? Reiciendis eligendi voluptatem facere rerum, sequi blanditiis ducimus atque fuga at doloribus accusantium a obcaecati excepturi saepe.</p>
+            <p className="postText">{body}</p>
+            <p className="postText">{body}</p>
+            <p className="postText">{body}</p>
+            <p className="postText">{body}</p>
+            <p className="postText">{body}</p>
             </div>
         </div>
     );
