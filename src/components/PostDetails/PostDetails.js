@@ -4,6 +4,7 @@ import './PostDetails.css'
 
 
 const PostDetails = () => {
+
     const {id} = useParams()
 
     const [postData, setPostData] = useState({})
