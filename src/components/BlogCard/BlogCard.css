@@ -1,6 +1,8 @@
 .blogCard {
-    padding: 10px;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 1px 2px 4px #dddddd;
+  padding: 0 10px;
+  margin: 10px;
+  box-shadow: 1px 2px 4px #dddddd;
+}
+.blogTitle {
+  cursor: pointer;
 }
