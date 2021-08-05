@@ -16,6 +16,7 @@ const BlogCard = ({ post }) => {
         <div className="blogCard">
             <h2 className="blogTitle" onClick={()=>handleTitle(id)}>{title}</h2>
             <p>{body}</p>
+            
         </div>
     );
 };

@@ -8,12 +8,10 @@ const PostDetails = () => {
 
     const [postData, setPostData] = useState({})
 
-    // console.log(postData);
-
     const {title, body} = postData
 
     useEffect(()=>{
-        fetch('https://jsonplaceholder.typicode.com/posts/' + id)
+        fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
         .then(res => res.json())
         .then(data => setPostData(data))
 
