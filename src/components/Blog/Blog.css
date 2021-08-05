@@ -1,0 +1,7 @@
+.blog {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px 0;
+}
